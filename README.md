@@ -1,3 +1,4 @@
+markdown
 # Smart Learning Management System (Smart LMS)
 
 A complete Learning Management System built with Jakarta EE, EJB, JPA, and Servlets.
@@ -19,3 +20,41 @@ A complete Learning Management System built with Jakarta EE, EJB, JPA, and Servl
 ---
 
 ## Project Structure
+SmartLMS/
+├── SmartLMS-EJB/ # Business Logic & Entities
+│ ├── entities/ # JPA Entities
+│ └── session/ # EJB Session Beans
+├── SmartLMS-WebApp/ # User Interface
+│ ├── servlets/ # Servlets
+│ ├── jsp/ # JSP Pages
+│ └── resources/ # CSS, JS, Images
+├── database/ # Database Schema
+│ └── schema.sql # Supabase SQL
+├── Dockerfile # Container configuration
+└── README.md
+
+text
+
+---
+
+## Features
+
+- User Registration and Login
+- Course Management (Create, Read, Update, Delete)
+- Student Enrollment
+- Assignments and Submissions
+- Quizzes with Questions
+- Grading System
+- Discussion Forums
+- Progress Tracking
+- Role-based Access (Admin, Instructor, Student)
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/SmartLMS.git
+cd SmartLMS
