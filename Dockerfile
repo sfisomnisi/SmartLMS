@@ -1,6 +1,6 @@
-
 FROM payara/micro:latest
 
+COPY SmartLMS-EJB.jar /opt/payara/deployments/
 COPY SmartLMS-WebApp.war /opt/payara/deployments/
 
 EXPOSE 8080
